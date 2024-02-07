@@ -10,32 +10,24 @@
 
 class StackArr{
 public:
-///DEFAULT CONSTRUCTOR
+    ///DEFAULT CONSTRUCTOR
     StackArr() { size_ = 0; capacity_ = 10; data_ = new float[10]; }
 
     ///COPY CONSTRUCTOR
     StackArr(const StackArr& a);
 
-    ///CONSTRUCTOR BY SIZE
-    // StackArr(const std::ptrdiff_t size);
+    ///POP FUNCTION
+    void Pop();
 
-    ///GETS SIZE VALUE
-    //[[nodiscard]] std::ptrdiff_t Size() const { return size_; }
+    ///PUSH FUNCTION
+    void Push(const std::ptrdiff_t data);
 
-//    StackArr& operator= (const StackArr& rhs);
-//
+    ///ISEMPTY FUNCTION
+    bool IiEmpty();
 
-    void Pop(const std::ptrdiff_t data);
+    ///TOP FUNCTION
+    auto Top();
 
-    void Push();
-
-    bool IiEmpty(const std::ptrdiff_t size);
-
-    auto Top(const std::ptrdiff_t data);
-
-    ///GETS INDEXES
-    //  float& operator[](const std::ptrdiff_t idx);
-    // const float& operator[](const std::ptrdiff_t idx) const;
 
     ///DESTRUCTOR
     ~StackArr() { delete[] data_; }

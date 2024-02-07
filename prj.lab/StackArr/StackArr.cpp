@@ -12,7 +12,18 @@ StackArr::StackArr(const StackArr &a) {
         data_[i] = a.data_[i];
 }
 
-void StackArr::Pop(const std::ptrdiff_t data) {}
+void StackArr::Pop() {
 
-bool StackArr::IiEmpty(const std::ptrdiff_t size) {}
+}
 
+void StackArr::Push(const std::ptrdiff_t data) {
+
+}
+
+bool StackArr::IiEmpty() {
+
+}
+
+auto StackArr::Top(){
+
+}
