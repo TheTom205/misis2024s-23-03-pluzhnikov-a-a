@@ -5,7 +5,6 @@
 #ifndef MISIS2024S_23_03_PLUZHNIKOV_A_A_STACKARR_H
 #define MISIS2024S_23_03_PLUZHNIKOV_A_A_STACKARR_H
 
-#include <iostream>
 #include <cstddef>
 
 class StackArr{
@@ -20,7 +19,7 @@ public:
     void Pop();
 
     ///PUSH FUNCTION
-    void Push(const std::ptrdiff_t data);
+    void Push(auto data);
 
     ///ISEMPTY FUNCTION
     bool IiEmpty();

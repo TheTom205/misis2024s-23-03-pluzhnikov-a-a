@@ -5,7 +5,7 @@
 #include <stdexcept>
 
 StackArr::StackArr(const StackArr &a) {
-    if (2 * a.size_ > capacity_) capacity_ = 2 * size_;
+    if (2 * a.size_ > capacity_) capacity_ = size_ * 2;
     size_ = a.size_;
     data_ = new float [capacity_];
     for (std::ptrdiff_t i = 0; i < size_; ++i)
@@ -16,7 +16,7 @@ void StackArr::Pop() {
 
 }
 
-void StackArr::Push(const std::ptrdiff_t data) {
+void StackArr::Push(auto data) {
 
 }
 
