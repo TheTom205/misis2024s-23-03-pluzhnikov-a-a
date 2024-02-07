@@ -20,10 +20,10 @@ public:
     // StackArr(const std::ptrdiff_t size);
 
     ///GETS SIZE VALUE
-    [[nodiscard]] std::ptrdiff_t Size() const { return size_; }
+    //[[nodiscard]] std::ptrdiff_t Size() const { return size_; }
 
-    StackArr& operator= (const StackArr& rhs);
-
+//    StackArr& operator= (const StackArr& rhs);
+//
 
     void Pop(const std::ptrdiff_t data);
 
