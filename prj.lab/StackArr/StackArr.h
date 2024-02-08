@@ -19,13 +19,13 @@ public:
     void Pop();
 
     ///PUSH FUNCTION
-    void Push(auto data);
+    void Push(int data);
 
     ///ISEMPTY FUNCTION
     bool IsEmpty();
 
     ///TOP FUNCTION
-    auto Top();
+    int Top();
 
 
     ///DESTRUCTOR

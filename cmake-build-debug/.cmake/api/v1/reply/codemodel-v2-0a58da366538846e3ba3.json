@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						3
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
@@ -50,6 +51,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "prj.test",
+					"jsonFile" : "directory-prj.test-Debug-5c21977a58eb6220d410.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prj.test",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -60,12 +76,14 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "misis2024s-23-03-pluzhnikov-a-a",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -74,8 +92,15 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "StackArr::@732b672e820ac9f0582b",
-					"jsonFile" : "target-StackArr-Debug-2674f5b1ac4792c8f024.json",
+					"jsonFile" : "target-StackArr-Debug-f02fb964bcb4e169a5a9.json",
 					"name" : "StackArr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_StackArr::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_StackArr-Debug-61aea771d2ee44ac0277.json",
+					"name" : "test_StackArr",
 					"projectIndex" : 0
 				}
 			]

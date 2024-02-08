@@ -126,6 +126,9 @@
 		},
 		{
 			"path" : "prj.lab/StackArr/CMakeLists.txt"
+		},
+		{
+			"path" : "prj.test/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

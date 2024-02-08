@@ -22,7 +22,7 @@ void StackArr::Pop() {
 }
 
 ///PUSH FUNCTION
-void StackArr::Push(auto data) {
+void StackArr::Push(int data) {
     if(capacity_<= size_){
         capacity_=capacity_+1;
     }
@@ -37,7 +37,7 @@ bool StackArr::IsEmpty() {
 }
 
 ///TOP FUNCTION
-auto StackArr::Top(){
+int StackArr::Top(){
     if (size_ <= 0) throw std::runtime_error("size <= 0");
     else{
         return data_[size_-1];

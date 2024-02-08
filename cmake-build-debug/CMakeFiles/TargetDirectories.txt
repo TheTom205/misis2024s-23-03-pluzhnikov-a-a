@@ -17,3 +17,10 @@
 /home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.lab/StackArr/CMakeFiles/install.dir
 /home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.lab/StackArr/CMakeFiles/install/local.dir
 /home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.lab/StackArr/CMakeFiles/install/strip.dir
+/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.test/CMakeFiles/test_StackArr.dir
+/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.test/CMakeFiles/edit_cache.dir
+/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.test/CMakeFiles/rebuild_cache.dir
+/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.test/CMakeFiles/list_install_components.dir
+/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.test/CMakeFiles/install.dir
+/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.test/CMakeFiles/install/local.dir
+/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.test/CMakeFiles/install/strip.dir
