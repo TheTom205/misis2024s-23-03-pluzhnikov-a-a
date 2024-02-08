@@ -1,3 +1,7 @@
 # ninja log v5
 664	804	1707328917769931960	misis2024s_23_03_pluzhnikov_a_a	c6dc94eb853d1bc8
 1	663	1707328917630935429	CMakeFiles/misis2024s_23_03_pluzhnikov_a_a.dir/prj.lab/StackArr.cpp.o	3499cf145ea523f8
+1	647	1707336255507881741	prj.lab/StackArr/CMakeFiles/StackArr.dir/StackArr.cpp.o	efd7fd1573ca4199
+648	680	1707336255540880947	prj.lab/StackArr/libStackArr.a	453193e45f7a1caa
+2	1139	1707416624641010827	prj.lab/StackArr/CMakeFiles/StackArr.dir/StackArr.cpp.o	efd7fd1573ca4199
+1139	1166	1707416624669009935	prj.lab/StackArr/libStackArr.a	453193e45f7a1caa

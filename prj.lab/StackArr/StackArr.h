@@ -10,7 +10,7 @@
 class StackArr{
 public:
     ///DEFAULT CONSTRUCTOR
-    StackArr() { size_ = 0; capacity_ = 10; data_ = new float[10]; }
+    StackArr() { size_ = 0; capacity_ = 10; data_ = new int[10]; }
 
     ///COPY CONSTRUCTOR
     StackArr(const StackArr& a);
@@ -22,7 +22,7 @@ public:
     void Push(auto data);
 
     ///ISEMPTY FUNCTION
-    bool IiEmpty();
+    bool IsEmpty();
 
     ///TOP FUNCTION
     auto Top();
@@ -35,7 +35,10 @@ public:
 private:
     std::ptrdiff_t size_ = 0;
     std::ptrdiff_t capacity_ = 10;
-    float* data_;
+    int* data_;
+//    std::ptrdiff_t tmp_size_ = 0;
+//    std::ptrdiff_t tmp_capacity_ = 10;
+//    int* tmp_data_;
 };
 
 #endif //MISIS2024S_23_03_PLUZHNIKOV_A_A_STACKARR_H
