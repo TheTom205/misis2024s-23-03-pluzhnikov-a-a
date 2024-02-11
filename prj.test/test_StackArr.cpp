@@ -3,14 +3,19 @@
 #include <sstream>
 //#include "doctest.h"
 #include <StackArr/StackArr.h>
+#include <complex/complex.hpp>
 
 int main() {
     StackArr a;
-    a.Push(5);
-    a.Pop();
-    a.Push(9);
-    int b = a.Top();
-    std::cout << b;
+    Complex com;
+    Complex b;
+    com=Complex(4,2);
+    a.Push(com);
+
+
+
+//    b = a.Top();
+//    std::cout << b;
 }
 //        CHECK(a.Size() == 5);
 //        for (int i = 0; i < 5; ++i)
