@@ -8,7 +8,7 @@ int main() {
     StackArr a;
     a.Push(5);
     a.Pop();
-    a.Push(10);
+    a.Push(9);
     int b = a.Top();
     std::cout << b;
 }

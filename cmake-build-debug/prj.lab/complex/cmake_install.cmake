@@ -1,4 +1,4 @@
-# Install script for directory: /home/thetom205/misis2024s-23-03-pluzhnikov-a-a/prj.lab
+# Install script for directory: /home/thetom205/misis2024s-23-03-pluzhnikov-a-a/prj.lab/complex
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,23 +42,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.lab/StackArr/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.lab/complex/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.lab/rational/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.lab/dynarr/cmake_install.cmake")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.lab/complex/libcomplex.a")
 endif()
 

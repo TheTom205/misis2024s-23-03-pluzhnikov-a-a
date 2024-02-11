@@ -128,6 +128,15 @@
 			"path" : "prj.lab/StackArr/CMakeLists.txt"
 		},
 		{
+			"path" : "prj.lab/complex/CMakeLists.txt"
+		},
+		{
+			"path" : "prj.lab/rational/CMakeLists.txt"
+		},
+		{
+			"path" : "prj.lab/dynarr/CMakeLists.txt"
+		},
+		{
 			"path" : "prj.test/CMakeLists.txt"
 		}
 	],
