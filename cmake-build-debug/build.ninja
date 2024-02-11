@@ -191,14 +191,14 @@ build cmake_object_order_depends_target_StackArr: phony || prj.lab/StackArr/CMak
 
 build prj.lab/StackArr/CMakeFiles/StackArr.dir/StackArr.cpp.o: CXX_COMPILER__StackArr_Debug /home/thetom205/misis2024s-23-03-pluzhnikov-a-a/prj.lab/StackArr/StackArr.cpp || cmake_object_order_depends_target_StackArr
   DEP_FILE = prj.lab/StackArr/CMakeFiles/StackArr.dir/StackArr.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/prj.lab/StackArr/..
   OBJECT_DIR = prj.lab/StackArr/CMakeFiles/StackArr.dir
   OBJECT_FILE_DIR = prj.lab/StackArr/CMakeFiles/StackArr.dir
 
 build prj.lab/StackArr/CMakeFiles/StackArr.dir/__/__/prj.test/test_StackArr.cpp.o: CXX_COMPILER__StackArr_Debug /home/thetom205/misis2024s-23-03-pluzhnikov-a-a/prj.test/test_StackArr.cpp || cmake_object_order_depends_target_StackArr
   DEP_FILE = prj.lab/StackArr/CMakeFiles/StackArr.dir/__/__/prj.test/test_StackArr.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++20
+  FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/prj.lab/StackArr/..
   OBJECT_DIR = prj.lab/StackArr/CMakeFiles/StackArr.dir
   OBJECT_FILE_DIR = prj.lab/StackArr/CMakeFiles/StackArr.dir/__/__/prj.test
@@ -602,12 +602,12 @@ build prj.lab/dynarr/install/strip: phony prj.lab/dynarr/CMakeFiles/install/stri
 #############################################
 # Order-only phony target for test_StackArr
 
-build cmake_object_order_depends_target_test_StackArr: phony || cmake_object_order_depends_target_StackArr
+build cmake_object_order_depends_target_test_StackArr: phony || cmake_object_order_depends_target_StackArr cmake_object_order_depends_target_complex
 
 build prj.test/CMakeFiles/test_StackArr.dir/test_StackArr.cpp.o: CXX_COMPILER__test_StackArr_Debug /home/thetom205/misis2024s-23-03-pluzhnikov-a-a/prj.test/test_StackArr.cpp || cmake_object_order_depends_target_test_StackArr
   DEP_FILE = prj.test/CMakeFiles/test_StackArr.dir/test_StackArr.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -I/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/prj.lab/StackArr/..
+  INCLUDES = -I/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/prj.lab/StackArr/.. -I/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/prj.lab/complex/..
   OBJECT_DIR = prj.test/CMakeFiles/test_StackArr.dir
   OBJECT_FILE_DIR = prj.test/CMakeFiles/test_StackArr.dir
 
@@ -619,9 +619,9 @@ build prj.test/CMakeFiles/test_StackArr.dir/test_StackArr.cpp.o: CXX_COMPILER__t
 #############################################
 # Link the executable prj.test/bin.dbg/test_StackArr
 
-build prj.test/bin.dbg/test_StackArr: CXX_EXECUTABLE_LINKER__test_StackArr_Debug prj.test/CMakeFiles/test_StackArr.dir/test_StackArr.cpp.o | prj.lab/StackArr/libStackArr.a || prj.lab/StackArr/libStackArr.a
+build prj.test/bin.dbg/test_StackArr: CXX_EXECUTABLE_LINKER__test_StackArr_Debug prj.test/CMakeFiles/test_StackArr.dir/test_StackArr.cpp.o | prj.lab/StackArr/libStackArr.a prj.lab/complex/libcomplex.a || prj.lab/StackArr/libStackArr.a prj.lab/complex/libcomplex.a
   FLAGS = -g
-  LINK_LIBRARIES = prj.lab/StackArr/libStackArr.a
+  LINK_LIBRARIES = prj.lab/StackArr/libStackArr.a  prj.lab/complex/libcomplex.a
   OBJECT_DIR = prj.test/CMakeFiles/test_StackArr.dir
   POST_BUILD = :
   PRE_LINK = :

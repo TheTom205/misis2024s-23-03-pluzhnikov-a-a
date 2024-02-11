@@ -10,7 +10,7 @@
 class StackArr{
 public:
     ///DEFAULT CONSTRUCTOR
-    StackArr() { size_ = 0; capacity_ = 10; data_ = new int[10]; }
+    StackArr() { size_ = 0; capacity_ = 10; data_ = new Complex[10]; }
 
     ///COPY CONSTRUCTOR
     StackArr(const StackArr& a);
@@ -19,13 +19,13 @@ public:
     void Pop();
 
     ///PUSH FUNCTION
-    void Push(int data );
+    void Push(Complex data );
 
     ///ISEMPTY FUNCTION
     bool IsEmpty();
 
     ///TOP FUNCTION
-    int Top();
+    Complex Top();
 
 
     ///DESTRUCTOR
@@ -35,7 +35,7 @@ public:
 private:
     std::ptrdiff_t size_ = 0;
     std::ptrdiff_t capacity_ = 10;
-    int* data_;
+    Complex* data_;
 //    std::ptrdiff_t tmp_size_ = 0;
 //    std::ptrdiff_t tmp_capacity_ = 10;
 //    int* tmp_data_;

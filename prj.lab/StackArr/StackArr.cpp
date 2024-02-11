@@ -9,7 +9,7 @@
 StackArr::StackArr(const StackArr &a) {
     if (2 * a.size_ > capacity_) capacity_ = a.size_ * 2;
     size_ = a.size_;
-    data_ = new int[capacity_];
+    data_ = new Complex[capacity_];
     for (std::ptrdiff_t i = 0; i < size_; ++i)
         data_[i] = a.data_[i];
 }
@@ -23,10 +23,10 @@ void StackArr::Pop() {
 }
 
 ///PUSH FUNCTION
-void StackArr::Push(int data) {
+void StackArr::Push(Complex data) {
     if(capacity_<= size_){
-//        capacity_=capacity_+1;
-        data_=new int[1];
+        capacity_=capacity_+1;
+        data_=new Complex[1];
 
     }
 
@@ -40,7 +40,7 @@ bool StackArr::IsEmpty() {
 }
 
 ///TOP FUNCTION
-int StackArr::Top(){
+Complex StackArr::Top(){
     if (size_ <= 0) throw std::runtime_error("size <= 0");
     else{
         return data_[size_-1];

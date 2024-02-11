@@ -1,23 +1,28 @@
-//#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-#include <iostream>
-#include <sstream>
-//#include "doctest.h"
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+
 #include <StackArr/StackArr.h>
 #include <complex/complex.hpp>
-
-int main() {
+//#include "iostream"
+#include "doctest.h"
+//int main() {
+//    StackArr a;
+//    for(int i=0;i<17;i++){
+//        a.Push(i);
+//    }
+//
+//
+//
+//   int b = a.Top();
+//    std::cout << b;
+//}
+//
+TEST_CASE("TEST") {
     StackArr a;
-    for(int i=0;i<17;i++){
-        a.Push(i);
-    }
-
-
-
-   int b = a.Top();
-    std::cout << b;
+    Complex num(1, 5);
+    a.Push(num);
+    Complex num1 = a.Top();
+    CHECK_EQ(num1, num);
 }
-
-
 
 //TEST_CASE("TEST") {
 //    StackArr a;
