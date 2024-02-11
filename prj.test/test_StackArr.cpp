@@ -7,16 +7,24 @@
 
 int main() {
     StackArr a;
-    Complex com;
-    Complex b;
-    com=Complex(4,2);
-    a.Push(com);
+    for(int i=0;i<17;i++){
+        a.Push(i);
+    }
 
 
 
-//    b = a.Top();
-//    std::cout << b;
+   int b = a.Top();
+    std::cout << b;
 }
+
+
+
+//TEST_CASE("TEST") {
+//    StackArr a;
+//    a.Push(4);
+//    CHECK_EQ(a.IsEmpty(),1);
+//}
+
 //        CHECK(a.Size() == 5);
 //        for (int i = 0; i < 5; ++i)
 //            CHECK(a[i] == 0);
