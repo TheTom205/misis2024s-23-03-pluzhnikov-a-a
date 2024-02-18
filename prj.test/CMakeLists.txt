@@ -12,3 +12,7 @@ target_link_libraries(rational_test rational)
 
 add_executable(dynarr_test dynarr_test.cpp)
 target_link_libraries(dynarr_test dynarr)
+
+add_executable(test_StackLst test_StackLst.cpp)
+target_link_libraries(test_StackLst StackLst)
+target_link_libraries(test_StackLst complex)
