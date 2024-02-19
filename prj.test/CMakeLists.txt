@@ -16,3 +16,7 @@ target_link_libraries(dynarr_test dynarr)
 add_executable(test_StackLst test_StackLst.cpp)
 target_link_libraries(test_StackLst StackLst)
 target_link_libraries(test_StackLst complex)
+
+add_executable(test_QueueLst test_QueueLst.cpp)
+target_link_libraries(test_QueueLst QueueLst)
+target_link_libraries(test_QueueLst complex)
