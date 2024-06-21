@@ -5,6 +5,7 @@
 #include <stdexcept>
 #include <complex/complex.hpp>
 
+
 ///COPY CONSTRUCTOR
 StackArr::StackArr(const StackArr &a) {
     if (2 * a.size_ > capacity_) capacity_ = a.size_ * 2;

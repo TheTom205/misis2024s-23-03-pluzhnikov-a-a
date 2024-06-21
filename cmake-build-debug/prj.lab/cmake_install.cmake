@@ -72,3 +72,13 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.lab/dynarr/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.lab/QueueArr/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/thetom205/misis2024s-23-03-pluzhnikov-a-a/cmake-build-debug/prj.lab/QueueLstPr/cmake_install.cmake")
+endif()
+
